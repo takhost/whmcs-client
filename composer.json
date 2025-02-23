@@ -1,0 +1,19 @@
+{
+    "name": "takhost/whmcs-client",
+    "description": "Client sending an API request to WHMCS",
+    "type": "library",
+    "autoload": {
+        "psr-4": {
+            "Takhost\\WhmcsClient\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Ahmadreza Bashari",
+            "email": "ahmadrezabashari@gmail.com"
+        }
+    ],
+    "require-dev": {
+        "symfony/symfony": "^7.2"
+    }
+}
